@@ -1,0 +1,40 @@
+#pragma once
+
+#include <Windows.h>
+#include <vector>
+#include <dwmapi.h>
+#include <string>
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
+#include <fcntl.h>
+#include <thread>
+#include <random>
+#include <io.h>
+
+
+#include "main.h"
+#include "../Comms/driver.hpp"
+#include "../Other/Print.hpp"
+#include "..//directx9/d3d9_x.h"
+#include "../AntiDebug/xor.hpp"
+#include "../Other/Keybind.h"
+#include "../Other/skStr.h"
+#include "../Other/color.hpp"
+#include "offsets.h"
+#include "xstring"
+#include "../Other/font.h"
+#include "../Main/Functions.h"
+#include "../Aimbot/aimbot.h"
+#include "../Includes/definitons.h"
+#include "../Overlay/menu.h"
+#include "description.h"
+#include "../Loop/sdkloop.h"
+#include "../Overlay/Overlay.h"
+#include "../Loop/Loop.h"
+#include "../AntiDebug/CallStack-Spoofer.h"
+#include "../Imgui/imgui.h"
+#include "../Other/defs.h"
+#include "../AntiDebug/Skicript.hpp"
+#include "../Other/auth.hpp"

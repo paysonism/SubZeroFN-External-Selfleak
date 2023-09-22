@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aimbot\input.hpp">
+      <Filter>Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot\librarys.hpp">
+      <Filter>Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Comms\driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Comms\librarys.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\font.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Keybind.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Print.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\skStr.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\vactor.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\menu.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\auth.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\color.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\defs.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\description.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\offsets.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\Loop.h">
+      <Filter>Loops</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\sdkloop.h">
+      <Filter>Loops</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\definitons.h">
+      <Filter>Includes/definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\includes.hpp">
+      <Filter>Includes/definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Functions.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\CallStack-Spoofer.h">
+      <Filter>Anti DeBug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\Skicript.hpp">
+      <Filter>Anti DeBug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\xor.hpp">
+      <Filter>Anti DeBug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\xstring.h">
+      <Filter>Anti DeBug</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot\aimbot.h">
+      <Filter>Aimbot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{c01ea27c-4d83-4c91-b894-72d0e26f0a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{74f72ff3-d9b0-44f6-9868-7915ccbb278f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aimbot">
+      <UniqueIdentifier>{17a77f93-f314-4b9a-a9c3-1e1b3e5fa27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti DeBug">
+      <UniqueIdentifier>{491ef015-c5b2-4657-ab20-39f19c373bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{ad8d2fa3-f773-449c-8909-8b76567c7a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loops">
+      <UniqueIdentifier>{0ddf19f4-9444-4c2c-a3ba-daf6a4688fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes/definitions">
+      <UniqueIdentifier>{e6641e4b-6e2c-4727-aafe-78b50932b41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{ab2d93e9-3a92-4c78-802a-fe61fc7d26f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
